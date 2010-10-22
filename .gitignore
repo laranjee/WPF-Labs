@@ -1,0 +1,12 @@
+#Ignore all dot files except for .gitignore
+.*
+!.gitignore
+
+#Ignore Visual Studio and Resharper files
+*.suo
+*.sln.cache
+*[Rr]e[Ss]harper*
+
+#Ignore all files within bin and obj folders
+[Bb]in/
+[Oo]bj/
